@@ -1,0 +1,227 @@
+*{
+    color: gray;
+}
+
+html{
+    background-color: black;
+}
+
+#up_frame {
+    height: 345px;
+    background-color: #141414;
+}
+
+#down_frame {
+    
+    height: 300px;
+    background-image: url(images/wood_bg.jpg);
+    text-align: center;
+    
+}
+
+#up_image {
+    text-align: center;
+}
+
+#up_image > img {
+
+    
+}
+
+header {
+    height: 28px;
+    background-image: url("images/cartein_base.png");
+}
+
+header h3 {
+
+}
+
+#info_left,#info_right {
+    
+    border-radius: 8px;
+    width: 41%;
+    margin-top: 20px;
+    height: 250px;
+    background-image: url("./images/bg_paper.jpg");
+    box-shadow: 0px 9px 12px 1px black;
+    
+    
+}
+
+.cartein_r {
+    position: absolute;
+    right: 0px;
+}
+
+.cartein_l {
+    left: 0px;
+    position: absolute;
+}
+
+
+#info_left {
+    
+    float: left;
+    margin-left: 7%;
+    
+}
+
+#info_right {
+    
+    float: right;
+    margin-right: 7%;
+}
+
+#cards{
+    
+    margin-top: -300px;
+    
+}
+
+#select {
+    margin: 0 auto;  
+}
+
+#select img{
+    width: 160px;
+}
+
+#select td {
+    width: 156px;
+    height: 199px;
+}
+
+.wood_bar{
+    height:14px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#895c18+0,a39e49+7,7c501d+49,3d1500+54,7a4f00+90,3d2624+100 */
+background: #895c18; /* Old browsers */
+background: -moz-linear-gradient(top,  #895c18 0%, #a39e49 7%, #7c501d 49%, #3d1500 54%, #7a4f00 90%, #3d2624 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #895c18 0%,#a39e49 7%,#7c501d 49%,#3d1500 54%,#7a4f00 90%,#3d2624 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #895c18 0%,#a39e49 7%,#7c501d 49%,#3d1500 54%,#7a4f00 90%,#3d2624 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#895c18', endColorstr='#3d2624',GradientType=0 ); /* IE6-9 */
+
+}
+
+#info_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ddd;
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px white;
+    margin-top: 3px;
+        }
+    
+    
+
+#date{
+    display: inline-block;
+    text-align: right;
+    float: right;
+    cursor: pointer;
+    margin-right: 33px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    letter-spacing: 6px;
+    font-size: 13px;
+    margin-top: 4px;
+    
+}
+
+#main_logo {
+    display: inline-block;
+}
+
+#cards a {
+    
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 19px;
+    
+    padding: 6px 15px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 7px 2px ;
+            font-weight: bold;
+    border: 2px solid #E0D96D;
+        
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+68,bf7676+99 */
+background: #ff3019; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 68%, #bf7676 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 68%,#bf7676 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 68%,#bf7676 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#bf7676',GradientType=0 ); /* IE6-9 */
+
+}
+
+#main_image{
+    
+}
+
+#select .cost{
+        color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 2px 2px black;
+        font-size: 13px;
+}
+
+.number_of_records {
+    position: absolute;
+    margin-top: 210px;
+    width: 110px;
+    /* height: 100px; */
+    background: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0px;
+    border-radius: 15px;
+    border: 3px solid;
+    margin-left: 18px;
+}
+
+.mark {
+    
+        position: absolute;
+    margin-top: 224px;
+    
+}
+#main_logo img{
+    width: 200px;
+    margin-top: 4px;
+    margin-left: 10px;
+    
+}
+
+#info_left p{
+    display: inline;
+}
+
+#score {
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    line-height: 70px;
+}
+
+.mark img{
+    
+        width: 50px !important;
+    margin-top: -73px;
+    margin-left: 110px;
+    box-shadow: 0px 0px 14px -1px white;
+    
+}
